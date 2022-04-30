@@ -6,6 +6,6 @@ export GITHUB="true"
 
 [ -n "$*" ] && export TELEGRAM_MESSAGE="$*"
 
-echo "$TELEGRAM_MESSAGE"
+echo "$INPUT_DOCUMENT"
 
 /bin/drone-telegram
